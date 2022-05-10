@@ -1,5 +1,6 @@
 ﻿using Model;
 using System.Collections.Generic;
+
 namespace BLL
 {
     public class UsuarioBLL
@@ -7,15 +8,17 @@ namespace BLL
 
         public void Inserir()
         {
+
         }
 
         public void Excluir()
-
         {
+
         }
 
         public void Alterar()
         {
+
         }
 
         public List<Usuario> Buscar()

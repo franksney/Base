@@ -1,4 +1,5 @@
-﻿using Model;
+﻿using DAL;
+using Model;
 using System.Collections.Generic;
 
 namespace BLL
@@ -8,7 +9,13 @@ namespace BLL
 
         public void Inserir()
         {
+            Usuario usuario = new Usuario();
+            usuario.NomeUsusario = "João";
+            usuario.Senha = "123";
+            usuario.Ativo = true;
 
+            UsuarioDAL usuarioDAL = new UsuarioDAL();
+            usuarioDAL.Inserir(usuario);
         }
 
         public void Excluir()

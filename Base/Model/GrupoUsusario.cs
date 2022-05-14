@@ -2,7 +2,7 @@
 
 namespace Model
 {
-    public class GrupoUsusario
+    public class GrupoUsuario
     {
         private string descricao;
 

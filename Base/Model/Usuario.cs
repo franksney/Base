@@ -19,7 +19,7 @@ namespace Model
             set { id = value; }
         }
 
-        public string NomeUsusario  
+        public string NomeUsuario  
         {
             get { return nomeUsuario; }
             set { nomeUsuario = value; }

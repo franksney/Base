@@ -22,7 +22,7 @@ namespace DAL
                 pativo.Value = _usuario.Ativo;
                 cmd.Parameters.Add(pativo);
 
-                cmd.Parameters.Add(new SqlParameter("@NomeUsuario", SqlDbType.VarChar) { Value = _usuario.NomeUsusario });
+                cmd.Parameters.Add(new SqlParameter("@NomeUsuario", SqlDbType.VarChar) { Value = _usuario.NomeUsuario });
                
                 SqlParameter psenha = new SqlParameter("@Senha", SqlDbType.VarChar);
                 psenha.Value = _usuario.Senha;

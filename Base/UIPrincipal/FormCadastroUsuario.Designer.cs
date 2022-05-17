@@ -176,7 +176,8 @@ namespace UIPrincipal
             this.MinimizeBox = false;
             this.Name = "FormCadastroUsuario";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Cadastro de Usuario";
+            this.Text = "Cadastro de Usuários";
+            this.Load += new System.EventHandler(this.FormCadastroUsuario_Load);
             ((System.ComponentModel.ISupportInitialize)(this.usuarioBindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

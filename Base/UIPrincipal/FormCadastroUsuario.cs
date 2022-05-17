@@ -43,5 +43,10 @@ namespace UIPrincipal
             usuarioBLL.Inserir(usuario);
 
         }
+
+        private void FormCadastroUsuario_Load(object sender, EventArgs e)
+        {
+
+        }
     }
  }

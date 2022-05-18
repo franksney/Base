@@ -24,7 +24,7 @@ namespace UIPrincipal
 
         private void usuáriosToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            using (FormConsultaUsuário frm = new FormConsultaUsuário())
+            using (FormConsultaUsuario frm = new FormConsultaUsuario())
             {
                 frm.ShowDialog();
             }

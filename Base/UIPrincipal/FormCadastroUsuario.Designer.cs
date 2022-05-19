@@ -107,7 +107,7 @@ namespace UIPrincipal
             // buttonSair
             // 
             this.buttonSair.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.buttonSair.Location = new System.Drawing.Point(670, 431);
+            this.buttonSair.Location = new System.Drawing.Point(663, 431);
             this.buttonSair.Name = "buttonSair";
             this.buttonSair.Size = new System.Drawing.Size(64, 23);
             this.buttonSair.TabIndex = 7;
@@ -127,7 +127,7 @@ namespace UIPrincipal
             this.idTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.usuarioBindingSource, "Id", true));
             this.idTextBox.Location = new System.Drawing.Point(13, 70);
             this.idTextBox.Name = "idTextBox";
-            this.idTextBox.Size = new System.Drawing.Size(98, 20);
+            this.idTextBox.Size = new System.Drawing.Size(91, 20);
             this.idTextBox.TabIndex = 9;
             // 
             // nomeUsuarioTextBox
@@ -138,7 +138,7 @@ namespace UIPrincipal
             this.nomeUsuarioTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.usuarioBindingSource, "NomeUsuario", true));
             this.nomeUsuarioTextBox.Location = new System.Drawing.Point(116, 70);
             this.nomeUsuarioTextBox.Name = "nomeUsuarioTextBox";
-            this.nomeUsuarioTextBox.Size = new System.Drawing.Size(388, 20);
+            this.nomeUsuarioTextBox.Size = new System.Drawing.Size(381, 20);
             this.nomeUsuarioTextBox.TabIndex = 1;
             // 
             // senhaTextBox
@@ -150,7 +150,7 @@ namespace UIPrincipal
             this.senhaTextBox.Location = new System.Drawing.Point(512, 70);
             this.senhaTextBox.Name = "senhaTextBox";
             this.senhaTextBox.PasswordChar = '*';
-            this.senhaTextBox.Size = new System.Drawing.Size(166, 20);
+            this.senhaTextBox.Size = new System.Drawing.Size(159, 20);
             this.senhaTextBox.TabIndex = 3;
             // 
             // ativoCheckBox
@@ -173,7 +173,7 @@ namespace UIPrincipal
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(0, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(746, 39);
+            this.label1.Size = new System.Drawing.Size(739, 39);
             this.label1.TabIndex = 10;
             this.label1.Text = "Cadastro de usuários";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -182,7 +182,7 @@ namespace UIPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(746, 460);
+            this.ClientSize = new System.Drawing.Size(739, 432);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.ativoCheckBox);
             this.Controls.Add(senhaLabel);

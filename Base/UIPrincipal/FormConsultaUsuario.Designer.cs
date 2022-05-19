@@ -55,7 +55,7 @@ namespace UIPrincipal
             this.panel1.Controls.Add(this.label1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(739, 81);
             this.panel1.TabIndex = 0;
@@ -80,7 +80,7 @@ namespace UIPrincipal
             this.panel2.Controls.Add(this.buttonNovo);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel2.Location = new System.Drawing.Point(0, 384);
-            this.panel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel2.Margin = new System.Windows.Forms.Padding(2);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(739, 48);
             this.panel2.TabIndex = 1;
@@ -89,7 +89,7 @@ namespace UIPrincipal
             // 
             this.buttonSair.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.buttonSair.Location = new System.Drawing.Point(640, 2);
-            this.buttonSair.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonSair.Margin = new System.Windows.Forms.Padding(2);
             this.buttonSair.Name = "buttonSair";
             this.buttonSair.Size = new System.Drawing.Size(85, 37);
             this.buttonSair.TabIndex = 3;
@@ -100,7 +100,7 @@ namespace UIPrincipal
             // buttonExcluir
             // 
             this.buttonExcluir.Location = new System.Drawing.Point(188, 2);
-            this.buttonExcluir.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonExcluir.Margin = new System.Windows.Forms.Padding(2);
             this.buttonExcluir.Name = "buttonExcluir";
             this.buttonExcluir.Size = new System.Drawing.Size(85, 37);
             this.buttonExcluir.TabIndex = 2;
@@ -110,7 +110,7 @@ namespace UIPrincipal
             // buttonAlterar
             // 
             this.buttonAlterar.Location = new System.Drawing.Point(98, 2);
-            this.buttonAlterar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonAlterar.Margin = new System.Windows.Forms.Padding(2);
             this.buttonAlterar.Name = "buttonAlterar";
             this.buttonAlterar.Size = new System.Drawing.Size(85, 37);
             this.buttonAlterar.TabIndex = 1;
@@ -120,7 +120,7 @@ namespace UIPrincipal
             // buttonNovo
             // 
             this.buttonNovo.Location = new System.Drawing.Point(9, 2);
-            this.buttonNovo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonNovo.Margin = new System.Windows.Forms.Padding(2);
             this.buttonNovo.Name = "buttonNovo";
             this.buttonNovo.Size = new System.Drawing.Size(85, 37);
             this.buttonNovo.TabIndex = 0;
@@ -133,7 +133,7 @@ namespace UIPrincipal
             this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox1.Location = new System.Drawing.Point(9, 86);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(2);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(656, 20);
             this.textBox1.TabIndex = 2;
@@ -142,7 +142,7 @@ namespace UIPrincipal
             // 
             this.buttonBuscar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.buttonBuscar.Location = new System.Drawing.Point(668, 86);
-            this.buttonBuscar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonBuscar.Margin = new System.Windows.Forms.Padding(2);
             this.buttonBuscar.Name = "buttonBuscar";
             this.buttonBuscar.Size = new System.Drawing.Size(56, 19);
             this.buttonBuscar.TabIndex = 3;
@@ -166,7 +166,7 @@ namespace UIPrincipal
             this.dataGridViewCheckBoxColumn1});
             this.usuarioDataGridView.DataSource = this.usuarioBindingSource;
             this.usuarioDataGridView.Location = new System.Drawing.Point(9, 109);
-            this.usuarioDataGridView.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.usuarioDataGridView.Margin = new System.Windows.Forms.Padding(2);
             this.usuarioDataGridView.Name = "usuarioDataGridView";
             this.usuarioDataGridView.RowHeadersWidth = 51;
             this.usuarioDataGridView.RowTemplate.Height = 24;
@@ -208,7 +208,7 @@ namespace UIPrincipal
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.KeyPreview = true;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.MinimizeBox = false;
             this.MinimumSize = new System.Drawing.Size(755, 471);
             this.Name = "FormConsultaUsuario";

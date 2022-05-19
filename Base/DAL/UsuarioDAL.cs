@@ -86,7 +86,6 @@ namespace DAL
             }
             
         }
-
         public void Excluir(int _id)
         {
             SqlConnection cn = new SqlConnection();
@@ -119,5 +118,30 @@ namespace DAL
                 cn.Close();
             }
         }
+        public Usuario Alterar(Usuario _usuario)
+        {
+            SqlConnection cn = new SqlConnection();
+            try
+            {
+                cn.ConnectionString = "";
+                SqlCommand cmd = new SqlCommand();
+                cmd.Connection = cn;
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.CommandText = "SP_AlterarUsuario";
+
+            }
+            catch (SqlException ex)
+            {
+                throw new Exception("Servidor SQL Erro: " + ex.Message);
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+            finally
+            {
+                cn.Close();
+            }
+        }   
     }
 }

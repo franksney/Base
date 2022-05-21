@@ -86,8 +86,6 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <None Include="Properties\DataSources\Model.GrupoUsusario.datasource" />
-    <None Include="Properties\DataSources\Model.Permissao.datasource" />
     <None Include="Properties\DataSources\Model.Usuario.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

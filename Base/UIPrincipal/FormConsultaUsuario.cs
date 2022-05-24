@@ -60,5 +60,10 @@ namespace UIPrincipal
                 frm.ShowDialog();
             }
         }
+
+        private void FormConsultaUsuario_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

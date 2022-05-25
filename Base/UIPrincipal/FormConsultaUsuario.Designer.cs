@@ -1,6 +1,6 @@
 ﻿namespace UIPrincipal
 {
-    partial class FormConsultaUsuario
+    public partial class FormConsultaUsuario
     {
         /// <summary>
         /// Required designer variable.
@@ -131,7 +131,7 @@
             // 
             // textBoxBuscar
             // 
-            this.textBoxBuscar.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.textBoxBuscar.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
             this.textBoxBuscar.Location = new System.Drawing.Point(9, 86);
             this.textBoxBuscar.Margin = new System.Windows.Forms.Padding(2);
@@ -153,12 +153,12 @@
             // 
             // usuarioBindingSource
             // 
-            this.usuarioBindingSource.DataSource = typeof(Model.Usuario);
+            //this.usuarioBindingSource.DataSource = typeof(Model.Usuario);
             // 
             // usuarioDataGridView
             // 
-            this.usuarioDataGridView.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
+            this.usuarioDataGridView.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
             this.usuarioDataGridView.AutoGenerateColumns = false;
             this.usuarioDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
